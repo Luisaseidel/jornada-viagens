@@ -24,6 +24,7 @@
 /*CSS RESET*/
 body,
 img,
+h1,
 p,
 fieldset,
 legend,
@@ -47,7 +48,6 @@ font-size: 28px;
 font-weight: var(--title-weight);
 margin: 0;
 text-align: center;
-
 }
 
 .section-title hr {
@@ -69,6 +69,7 @@ margin: 16px auto 32px;
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
