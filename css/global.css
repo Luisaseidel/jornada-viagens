@@ -43,6 +43,22 @@ body{
   color:var(--text-primary-color);
 }
 
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
+section.hero,
+section.bottom-hero {
+  width: 100%;
+  margin: 0;
+}
+
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
+
 .section-title h2 {
 font-size: 28px;
 font-weight: var(--title-weight);
@@ -57,7 +73,16 @@ background-color: var(--secondary-color);
 border: none;
 margin: 16px auto 32px;
 }
-
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 0 24px;
+}
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
 .button {
   width: 280px;
   height: 64px;
